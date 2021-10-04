@@ -37,6 +37,11 @@ const HeroSection = () => {
             onMouseLeave={handleHover}
             dark="true"
             primary="true"
+            smooth={true}
+            duration={500}
+            spy={true}
+            offset={-80}
+            exact="true"
           >
             Get Started {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>

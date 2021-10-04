@@ -15,8 +15,12 @@ import {
   SocialMediaWrap,
   WebsiteRights,
 } from "./FooterElements";
+import { animateScroll as scroll } from "react-scroll";
 
 const Footer = () => {
+  const toggleHome = () => {
+    scroll.scrollToTop();
+  };
   return (
     <FooterContainer>
       <FooterWrap>
@@ -59,7 +63,9 @@ const Footer = () => {
       </FooterWrap>
       <SocialMedia>
         <SocialMediaWrap>
-          <SocialLogo to="/">bankkr</SocialLogo>
+          <SocialLogo to="/" onClick={toggleHome}>
+            bankkr
+          </SocialLogo>
           <WebsiteRights>bankkr © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
           <SocialIcons>
             <SocialIconLink href="/" target="_blank" area-label="Facebook">

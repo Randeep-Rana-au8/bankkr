@@ -10,7 +10,7 @@ import {
   HeroP,
   VideoBg,
 } from "./HeroElements.js";
-import Video from "../../videos/video.mp4";
+import Video from "../../videos/videoNew.mp4";
 import { Button } from "../ButtonElements";
 
 const HeroSection = () => {

@@ -104,7 +104,12 @@ export const SocialIcons = styled.div`
   align-items: center;
   width: 240px;
 `;
+
 export const SocialIconLink = styled.a`
   color: #fff;
   font-size: 24px;
+
+  &:hover {
+    color: #01bf71;
+  }
 `;

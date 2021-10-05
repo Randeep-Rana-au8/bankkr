@@ -68,19 +68,39 @@ const Footer = () => {
           </SocialLogo>
           <WebsiteRights>bankkr © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
           <SocialIcons>
-            <SocialIconLink href="/" target="_blank" area-label="Facebook">
+            <SocialIconLink
+              href="https://twitter.com/iRandeepRana"
+              target="_blank"
+              area-label="Facebook"
+            >
               <FaFacebook />
             </SocialIconLink>
-            <SocialIconLink href="/" target="_blank" area-label="Instagram">
+            <SocialIconLink
+              href="https://www.instagram.com/randeep_rana_official/"
+              target="_blank"
+              area-label="Instagram"
+            >
               <FaInstagram />
             </SocialIconLink>
-            <SocialIconLink href="/" target="_blank" area-label="Instagram">
+            <SocialIconLink
+              href="https://www.youtube.com/channel/UC8dz0ZtyNQoqNFyZklGEy6w"
+              target="_blank"
+              area-label="Instagram"
+            >
               <FaYoutube />
             </SocialIconLink>
-            <SocialIconLink href="/" target="_blank" area-label="Twitter">
+            <SocialIconLink
+              href="https://twitter.com/iRandeepRana"
+              target="_blank"
+              area-label="Twitter"
+            >
               <FaTwitter />
             </SocialIconLink>
-            <SocialIconLink href="/" target="_blank" area-label="Linkedin">
+            <SocialIconLink
+              href="https://www.linkedin.com/in/randeep-rana-dev/"
+              target="_blank"
+              area-label="Linkedin"
+            >
               <FaLinkedin />
             </SocialIconLink>
           </SocialIcons>
